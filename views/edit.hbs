@@ -1,0 +1,27 @@
+<div class="card">
+    <h5 class="card-header">{{title}}</h5>
+    <div class="card-body">
+        <h5 class="card-title">Dados da Inscrição</h5>
+        <form action="/edition/{{ id }}" method="post">
+            <div class="mb-3">
+                <label for="nombre" class="form-label">Resturante:</label>
+                <input type="text" class="form-control" id="nombre" name="nombre" value="{{ nombre }}">
+            </div>
+            <div class="mb-3">
+                <label for="dir" class="form-label">Dir:</label>
+                <input type="text" class="form-control" id="dir" name="dir" value="{{ dir }}">
+            </div>
+            <div class="mb-3">
+                <label for="pts_comida" class="form-label">Comida:</label>
+                <input type="text" class="form-control" id="pts_comida" name="pts_comida" value="{{ pts_comida }}">
+            </div>
+            <div class="mb-3">
+                <label for="pts_servicio" class="form-label">Servico:</label>
+                <input type="text" class="form-control" id="pts_servicio" name="pts_servicio" value="{{ pts_servicio }}">
+            </div>
+            <a href="/list" class="btn btn-primary">Cancelar</a>
+            <button type="submit" class="btn btn-success">Salvar</button>
+    </div>
+    </form>
+</div>
+</div>

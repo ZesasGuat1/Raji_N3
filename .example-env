@@ -1,0 +1,11 @@
+DB_USER=
+DB_PASSWORD=
+DB_HOST=
+DB=
+PORT=
+
+USER=root
+DB_PASSWORD=ed2021
+DB_HOST=localhost
+DB=db_node
+PORT=4000
